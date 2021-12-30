@@ -362,7 +362,7 @@ main {
 
 #contact-page-content {
   width: 100%;
-  max-width: 550px;
+  max-width: 500px;
   display: flex;
   margin-top: 2rem;
   flex-direction: column;
@@ -376,6 +376,9 @@ main {
 
   form {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+
     input[type="email"],
     textarea {
       margin-bottom: 1rem;

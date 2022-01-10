@@ -76,6 +76,13 @@
                     class="sc-icon d-flex align-items-center justify-content-center"
                     ><i class="fab fa-etsy"></i
                   ></a>
+                  <!-- Search box modal trigger button -->
+                  <i
+                    id="openSearchModalBtn"
+                    class="fas fa-search"
+                    data-toggle="modal"
+                    data-target="#searchModal"
+                  ></i>
                 </p>
               </div>
               <button
@@ -119,6 +126,7 @@
           </nav>
           <!-- END nav -->
         </div>
+
         <div class="banner">
           <div class="ctaMessage">
             <h4>Let's your story be heard</h4>
@@ -324,6 +332,58 @@
           &copy; 2021 All Rights Reserverd - Van Joseph De Ramos
         </div>
       </footer>
+    </div>
+
+    <!-- SEARCH BOX MODAL -->
+    <div
+      class="modal fade"
+      id="searchModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">
+              Are you looking for something?
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+              id="closeSearchModalBtn"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <!-- FREEFIND SEARCH BOX -->
+            <form
+              id="searchBox"
+              action="https://search.freefind.com/find.html"
+              method="get"
+              accept-charset="utf-8"
+              target="_self"
+            >
+              <input type="hidden" name="si" value="61953134" />
+              <input type="hidden" name="pid" value="r" />
+              <input type="hidden" name="n" value="0" />
+              <input type="hidden" name="_charset_" value="" />
+              <input type="hidden" name="bcd" value="&#247;" />
+              <input
+                type="text"
+                name="query"
+                size="15"
+                placeholder="Enter text to search"
+              />
+              <button type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- PRIVACY AND POLICY MODAL -->

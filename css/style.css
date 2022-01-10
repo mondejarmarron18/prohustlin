@@ -34,6 +34,59 @@ a {
   text-decoration: none;
 }
 
+#openSearchModalBtn {
+  padding: 0.6rem;
+  border-radius: 2rem;
+  margin: 0 0.5rem;
+  cursor: pointer;
+  background: black;
+  color: white;
+  font-size: 0.8rem;
+}
+
+#closeSearchModalBtn {
+  background: red;
+  background: transparent;
+  border: none;
+  font-size: 2rem;
+}
+
+#searchBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  padding: 1rem 0;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1.5rem;
+}
+
+#searchBox input[type="text"] {
+  border: none;
+  background: transparent;
+  padding: 0.5rem 1rem;
+  height: 100%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  outline: none;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+
+#searchBox button[type="submit"] {
+  background: transparent;
+  border: none;
+  padding: 0.5rem 1rem;
+  background: black;
+  color: white;
+  border-radius: 0.5rem;
+}
+
 header {
   width: 100%;
 }

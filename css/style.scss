@@ -35,9 +35,9 @@ header {
     background: white;
 
     .navbar-brand {
-      width: 4rem;
-      height: 4rem;
-      background-image: url("../images/logo.jpg");
+      width: 7rem;
+      height: 6rem;
+      background-image: url("../images/logo.png");
       background-repeat: no-repeat;
       background-size: cover;
       background-color: rgb(255, 255, 255);
@@ -87,7 +87,7 @@ header {
 
     .ctaMessage {
       width: 100%;
-      max-width: 450px;
+      max-width: 550px;
       margin-left: 10%;
 
       h4 {
@@ -99,7 +99,7 @@ header {
 
       h1 {
         font-weight: 900;
-        font-size: 2rem;
+        font-size: 1.7rem;
         margin-bottom: 1.5rem;
       }
 
@@ -133,6 +133,11 @@ main {
       height: 2px;
       border-bottom: 5px solid black;
     }
+  }
+
+  .subTitle {
+    text-align: center;
+    max-width: 600px;
   }
 
   .about {
@@ -207,6 +212,7 @@ main {
 
         .description {
           margin-bottom: 1rem;
+          flex: 1;
         }
 
         a {
@@ -431,11 +437,12 @@ footer {
   padding: 0 1rem;
 
   .bread-crump {
-    letter-spacing: 1px;
     margin: 0.5rem 0;
     background: rgba(0, 0, 0, 0.075);
     padding: 1rem;
     border-radius: 5px;
+    font-size: 0.8rem;
+    font-weight: 500;
 
     a {
       color: blue;
@@ -490,6 +497,7 @@ footer {
 
     .blog {
       flex: 1;
+      max-width: 300px;
       min-width: 250px;
       border: 1px solid rgba(0, 0, 0, 0.075);
       border-radius: 5px;
@@ -528,6 +536,12 @@ footer {
     }
   }
 }
+
+#gallery {
+  margin-top: 2rem;
+}
+
+//PHOTOSWIPE
 
 @media (max-width: 991px) {
   header {

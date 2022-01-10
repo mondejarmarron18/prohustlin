@@ -43,9 +43,9 @@ header .navbar {
 }
 
 header .navbar .navbar-brand {
-  width: 4rem;
-  height: 4rem;
-  background-image: url("../images/logo.jpg");
+  width: 7rem;
+  height: 6rem;
+  background-image: url("../images/logo.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-color: white;
@@ -104,7 +104,7 @@ header .banner {
 
 header .banner .ctaMessage {
   width: 100%;
-  max-width: 450px;
+  max-width: 550px;
   margin-left: 10%;
 }
 
@@ -117,7 +117,7 @@ header .banner .ctaMessage h4 {
 
 header .banner .ctaMessage h1 {
   font-weight: 900;
-  font-size: 2rem;
+  font-size: 1.7rem;
   margin-bottom: 1.5rem;
 }
 
@@ -156,6 +156,11 @@ main > .title::after {
   width: 40%;
   height: 2px;
   border-bottom: 5px solid black;
+}
+
+main .subTitle {
+  text-align: center;
+  max-width: 600px;
 }
 
 main .about {
@@ -247,6 +252,9 @@ main .blogs .blog .content .title {
 
 main .blogs .blog .content .description {
   margin-bottom: 1rem;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
 
 main .blogs .blog .content a {
@@ -530,11 +538,12 @@ footer .copyright .privacyPolicyBtn {
 }
 
 #blog .bread-crump {
-  letter-spacing: 1px;
   margin: 0.5rem 0;
   background: rgba(0, 0, 0, 0.075);
   padding: 1rem;
   border-radius: 5px;
+  font-size: 0.8rem;
+  font-weight: 500;
 }
 
 #blog .bread-crump a {
@@ -599,6 +608,7 @@ footer .copyright .privacyPolicyBtn {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
+  max-width: 300px;
   min-width: 250px;
   border: 1px solid rgba(0, 0, 0, 0.075);
   border-radius: 5px;
@@ -641,6 +651,10 @@ footer .copyright .privacyPolicyBtn {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
+}
+
+#gallery {
+  margin-top: 2rem;
 }
 
 @media (max-width: 991px) {

@@ -99,7 +99,7 @@ header {
 
 header .navbar-toggler {
   text-transform: uppercase;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 header .navbar-toggler:focus {
@@ -109,7 +109,7 @@ header .navbar-toggler:focus {
 
 header .navbar {
   background: white;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 header .navbar .navbar-brand {
@@ -215,7 +215,7 @@ main {
 }
 
 main > .title {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   font-weight: 700;
 }
 
@@ -231,7 +231,7 @@ main > .title::after {
 main .subTitle {
   text-align: center;
   max-width: 600px;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 main .about {
@@ -247,7 +247,7 @@ main .about h3 {
 
 main .about p {
   font-weight: 400;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 main .about button {
@@ -286,7 +286,7 @@ main .blogs .header {
 }
 
 main .blogs .header .title {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: 700;
 }
 
@@ -303,7 +303,7 @@ main .blogs .blog {
   transition: -webkit-box-shadow 0.3s;
   transition: box-shadow 0.3s;
   transition: box-shadow 0.3s, -webkit-box-shadow 0.3s;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 main .blogs .blog:hover {
@@ -381,7 +381,7 @@ main .vlogs .header {
 }
 
 main .vlogs .header .title {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: 700;
 }
 
@@ -398,7 +398,7 @@ main .vlogs .vlog {
   transition: -webkit-box-shadow 0.3s;
   transition: box-shadow 0.3s;
   transition: box-shadow 0.3s, -webkit-box-shadow 0.3s;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 main .vlogs .vlog:hover {
@@ -504,7 +504,7 @@ main .topics .topic .content .title {
 }
 
 main .topics .topic .content .description {
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 main .topics .topic .content button {
@@ -533,7 +533,7 @@ main .topics .topic .content button {
           align-items: center;
   gap: 2rem;
   width: 100%;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 #about-page-content img {
@@ -596,7 +596,7 @@ main .topics .topic .content button {
 footer {
   width: 100%;
   background-color: black;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 footer .location {
@@ -640,7 +640,7 @@ footer .copyright .privacyPolicyBtn {
 #blog .bread-crump {
   margin: 0.5rem 0 1rem 0;
   padding: 1rem 0;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   font-weight: 600;
   color: #3a3a3a;
   border-bottom: 1px solid rgba(0, 0, 0, 0.144);
@@ -659,7 +659,7 @@ footer .copyright .privacyPolicyBtn {
 }
 
 #blog .body {
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 #blog .body .title {
@@ -670,7 +670,7 @@ footer .copyright .privacyPolicyBtn {
 #blog .body .author {
   margin-bottom: 1rem;
   color: rgba(0, 0, 0, 0.699);
-  font-size: 0.9rem;
+  font-size: 1rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -696,7 +696,7 @@ footer .copyright .privacyPolicyBtn {
   margin-top: 3rem;
   padding-bottom: 0.5rem;
   border-bottom: 1px solid rgba(0, 0, 0, 0.274);
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 #blog .related-blogs {
@@ -758,7 +758,7 @@ footer .copyright .privacyPolicyBtn {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 #blog .related-blogs .blog .content .title {

@@ -638,12 +638,12 @@ footer .copyright .privacyPolicyBtn {
 }
 
 #blog .bread-crump {
-  margin: 0.5rem 0;
+  margin: 0.5rem 0 1rem 0;
   padding: 1rem 0;
   font-size: 0.8rem;
   font-weight: 600;
   color: #3a3a3a;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.247);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.144);
 }
 
 #blog .bread-crump a {

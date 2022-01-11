@@ -25,6 +25,9 @@
       defer
     ></script>
 
+    <!-- MDBOOTSRAP GALLERY -->
+    <script src="../js/MdBootstrapGallery.js" defer></script>
+
     <!-- FONT AWESOME ICONS -->
     <link
       rel="stylesheet"
@@ -141,18 +144,21 @@
                 src="../images/products/258038676_638506200920489_4268354249983431417_n.jpg"
                 class="w-100 shadow-1-strong rounded mb-4"
                 alt="Gallery Image"
+                onclick="openMdGallery('../images/products/258038676_638506200920489_4268354249983431417_n.jpg')"
               />
 
               <img
                 src="../images/products/258884659_319661376384344_3624858786042303394_n.jpg"
                 class="w-100 shadow-1-strong rounded mb-4"
                 alt="Gallery Image"
+                onclick="openMdGallery('../images/products/258884659_319661376384344_3624858786042303394_n.jpg')"
               />
 
               <img
                 src="../images/products/266496372_336059801853171_1975176639291430927_n.jpg"
                 class="w-100 shadow-1-strong rounded mb-4"
                 alt="Gallery Image"
+                onclick="openMdGallery('../images/products/266496372_336059801853171_1975176639291430927_n.jpg')"
               />
             </div>
 
@@ -161,6 +167,7 @@
                 src="../images/products/269938677_1725461144326344_6284356087526563957_n.jpg"
                 class="w-100 shadow-1-strong rounded mb-4"
                 alt="Gallery Image"
+                onclick="openMdGallery('../images/products/269938677_1725461144326344_6284356087526563957_n.jpg')"
               />
             </div>
 
@@ -169,18 +176,21 @@
                 src="../images/products/259839940_988161582083705_541659065464186503_n.jpg"
                 class="w-100 shadow-1-strong rounded mb-4"
                 alt="Gallery Image"
+                onclick="openMdGallery('../images/products/259839940_988161582083705_541659065464186503_n.jpg')"
               />
 
               <img
                 src="../images/products/260491570_185434433797617_6746176276839752858_n.jpg"
                 class="w-100 shadow-1-strong rounded mb-4"
                 alt="Gallery Image"
+                onclick="openMdGallery('../images/products/260491570_185434433797617_6746176276839752858_n.jpg')"
               />
 
               <img
                 src="../images/products/258397196_643749026661649_8189255519099700423_n.jpg"
                 class="w-100 shadow-1-strong rounded mb-4"
                 alt="Gallery Image"
+                onclick="openMdGallery('../images/products/260491570_185434433797617_6746176276839752858_n.jpg')"
               />
             </div>
           </div>
@@ -217,6 +227,14 @@
           &copy; 2021 All Rights Reserverd - Van Joseph De Ramos
         </div>
       </footer>
+    </div>
+
+    <!-- MD BOOTSRAP GALLERY MODAL -->
+    <div id="mdGalleryModal">
+      <div class="content">
+        <button class="closeModal" onclick="closeMdGallery()">+</button>
+        <img id="mdGalleryImage" src="" alt="Md Gallery Image" />
+      </div>
     </div>
 
     <!-- SEARCH BOX MODAL -->

@@ -244,6 +244,7 @@ main {
       img {
         height: 200px;
         width: 100%;
+        object-fit: cover;
       }
 
       .content {
@@ -548,16 +549,20 @@ footer {
       border: 1px solid rgba(0, 0, 0, 0.075);
       border-radius: 5px;
       overflow: hidden;
+      display: flex;
+      flex-direction: column;
 
       img {
         height: 200px;
         width: 100%;
+        object-fit: cover;
       }
 
       .content {
         padding: 1rem;
         display: flex;
         flex-direction: column;
+        flex: 1;
 
         .title {
           font-weight: 700;
@@ -566,6 +571,7 @@ footer {
 
         .description {
           margin-bottom: 1rem;
+          flex: 1;
         }
 
         a {
@@ -576,7 +582,6 @@ footer {
           border-radius: 5px;
           border: none;
           width: 100%;
-          flex: 1;
         }
       }
     }

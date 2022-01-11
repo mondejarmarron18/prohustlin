@@ -716,7 +716,7 @@ footer .copyright .privacyPolicyBtn {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
-  max-width: 300px;
+  max-width: 280px;
   min-width: 250px;
   border: 1px solid rgba(0, 0, 0, 0.075);
   border-radius: 5px;
@@ -728,6 +728,15 @@ footer .copyright .privacyPolicyBtn {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-transition: -webkit-box-shadow 0.3s;
+  transition: -webkit-box-shadow 0.3s;
+  transition: box-shadow 0.3s;
+  transition: box-shadow 0.3s, -webkit-box-shadow 0.3s;
+}
+
+#blog .related-blogs .blog:hover {
+  -webkit-box-shadow: 0 6px 8px 6px rgba(0, 0, 0, 0.253);
+          box-shadow: 0 6px 8px 6px rgba(0, 0, 0, 0.253);
 }
 
 #blog .related-blogs .blog img {

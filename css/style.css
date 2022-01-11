@@ -42,6 +42,12 @@ a {
   background: black;
   color: white;
   font-size: 0.8rem;
+  -webkit-transition: background 0.3s;
+  transition: background 0.3s;
+}
+
+#openSearchModalBtn:hover {
+  background: #555555;
 }
 
 #closeSearchModalBtn {
@@ -91,8 +97,19 @@ header {
   width: 100%;
 }
 
+header .navbar-toggler {
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
+header .navbar-toggler:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
 header .navbar {
   background: white;
+  font-size: 0.9rem;
 }
 
 header .navbar .navbar-brand {
@@ -106,7 +123,7 @@ header .navbar .navbar-brand {
 }
 
 header .navbar .sc-icon {
-  margin: 0 1rem;
+  margin: 0 0.6rem;
 }
 
 header .navbar .sc-icon i {
@@ -198,7 +215,7 @@ main {
 }
 
 main > .title {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 700;
 }
 
@@ -206,14 +223,15 @@ main > .title::after {
   content: "";
   display: block;
   margin: 0 auto;
-  width: 40%;
+  width: 30%;
   height: 2px;
-  border-bottom: 5px solid black;
+  border-bottom: 5px solid rgba(0, 0, 0, 0.76);
 }
 
 main .subTitle {
   text-align: center;
   max-width: 600px;
+  font-size: 0.9rem;
 }
 
 main .about {
@@ -224,11 +242,12 @@ main .about {
 
 main .about h3 {
   font-weight: 700;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.3rem;
 }
 
 main .about p {
   font-weight: 400;
+  font-size: 0.9rem;
 }
 
 main .about button {
@@ -267,7 +286,7 @@ main .blogs .header {
 }
 
 main .blogs .header .title {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-weight: 700;
 }
 
@@ -280,6 +299,16 @@ main .blogs .blog {
   border: 1px solid rgba(0, 0, 0, 0.075);
   border-radius: 5px;
   overflow: hidden;
+  -webkit-transition: -webkit-box-shadow 0.3s;
+  transition: -webkit-box-shadow 0.3s;
+  transition: box-shadow 0.3s;
+  transition: box-shadow 0.3s, -webkit-box-shadow 0.3s;
+  font-size: 0.9rem;
+}
+
+main .blogs .blog:hover {
+  -webkit-box-shadow: 0 6px 8px 6px rgba(0, 0, 0, 0.253);
+          box-shadow: 0 6px 8px 6px rgba(0, 0, 0, 0.253);
 }
 
 main .blogs .blog img {
@@ -352,7 +381,7 @@ main .vlogs .header {
 }
 
 main .vlogs .header .title {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-weight: 700;
 }
 
@@ -365,6 +394,16 @@ main .vlogs .vlog {
   border: 1px solid rgba(0, 0, 0, 0.075);
   border-radius: 5px;
   overflow: hidden;
+  -webkit-transition: -webkit-box-shadow 0.3s;
+  transition: -webkit-box-shadow 0.3s;
+  transition: box-shadow 0.3s;
+  transition: box-shadow 0.3s, -webkit-box-shadow 0.3s;
+  font-size: 0.9rem;
+}
+
+main .vlogs .vlog:hover {
+  -webkit-box-shadow: 0 4px 6px 6px rgba(0, 0, 0, 0.253);
+          box-shadow: 0 4px 6px 6px rgba(0, 0, 0, 0.253);
 }
 
 main .vlogs .vlog iframe {
@@ -460,8 +499,12 @@ main .topics .topic .content {
 
 main .topics .topic .content .title {
   font-weight: 700;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   margin-bottom: 1rem;
+}
+
+main .topics .topic .content .description {
+  font-size: 0.9rem;
 }
 
 main .topics .topic .content button {
@@ -490,6 +533,7 @@ main .topics .topic .content button {
           align-items: center;
   gap: 2rem;
   width: 100%;
+  font-size: 0.9rem;
 }
 
 #about-page-content img {
@@ -552,6 +596,7 @@ main .topics .topic .content button {
 footer {
   width: 100%;
   background-color: black;
+  font-size: 0.9rem;
 }
 
 footer .location {
@@ -594,11 +639,11 @@ footer .copyright .privacyPolicyBtn {
 
 #blog .bread-crump {
   margin: 0.5rem 0;
-  background: rgba(0, 0, 0, 0.075);
-  padding: 1rem;
-  border-radius: 5px;
+  padding: 1rem 0;
   font-size: 0.8rem;
-  font-weight: 500;
+  font-weight: 600;
+  color: #3a3a3a;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.247);
 }
 
 #blog .bread-crump a {
@@ -613,9 +658,13 @@ footer .copyright .privacyPolicyBtn {
      object-fit: cover;
 }
 
+#blog .body {
+  font-size: 0.9rem;
+}
+
 #blog .body .title {
   margin-top: 1rem;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 #blog .body .author {
@@ -647,6 +696,7 @@ footer .copyright .privacyPolicyBtn {
   margin-top: 3rem;
   padding-bottom: 0.5rem;
   border-bottom: 1px solid rgba(0, 0, 0, 0.274);
+  font-size: 0.9rem;
 }
 
 #blog .related-blogs {
@@ -699,6 +749,7 @@ footer .copyright .privacyPolicyBtn {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
+  font-size: 0.9rem;
 }
 
 #blog .related-blogs .blog .content .title {
@@ -729,6 +780,17 @@ footer .copyright .privacyPolicyBtn {
 
 #gallery img {
   cursor: pointer;
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+  -webkit-transition: -webkit-filter 0.3s;
+  transition: -webkit-filter 0.3s;
+  transition: filter 0.3s;
+  transition: filter 0.3s, -webkit-filter 0.3s;
+}
+
+#gallery img:hover {
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
 }
 
 #mdGalleryModal {

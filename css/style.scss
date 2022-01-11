@@ -30,6 +30,11 @@ a {
   background: black;
   color: white;
   font-size: 0.8rem;
+  transition: background 0.3s;
+
+  &:hover {
+    background: rgb(85, 85, 85);
+  }
 }
 
 #closeSearchModalBtn {
@@ -77,8 +82,18 @@ header {
   //   background-color: rgba(0, 0, 0, 0.514);
   //   background-blend-mode: overlay;
 
+  .navbar-toggler {
+    text-transform: uppercase;
+    font-size: 0.9rem;
+
+    &:focus {
+      box-shadow: none;
+    }
+  }
+
   .navbar {
     background: white;
+    font-size: 0.9rem;
 
     .navbar-brand {
       width: 7rem;
@@ -91,7 +106,7 @@ header {
     }
 
     .sc-icon {
-      margin: 0 1rem;
+      margin: 0 0.6rem;
 
       i {
         color: rgba(0, 0, 0, 0.699);
@@ -168,22 +183,23 @@ main {
   width: 100%;
 
   & > .title {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 700;
 
     &::after {
       content: "";
       display: block;
       margin: 0 auto;
-      width: 40%;
+      width: 30%;
       height: 2px;
-      border-bottom: 5px solid black;
+      border-bottom: 5px solid rgba(0, 0, 0, 0.76);
     }
   }
 
   .subTitle {
     text-align: center;
     max-width: 600px;
+    font-size: 0.9rem;
   }
 
   .about {
@@ -193,11 +209,12 @@ main {
 
     h3 {
       font-weight: 700;
-      margin-bottom: 1.5rem;
+      margin-bottom: 1.3rem;
     }
 
     p {
       font-weight: 400;
+      font-size: 0.9rem;
     }
 
     button {
@@ -226,7 +243,7 @@ main {
       padding: 0.5rem;
 
       .title {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         font-weight: 700;
       }
 
@@ -240,6 +257,12 @@ main {
       border: 1px solid rgba(0, 0, 0, 0.075);
       border-radius: 5px;
       overflow: hidden;
+      transition: box-shadow 0.3s;
+      font-size: 0.9rem;
+
+      &:hover {
+        box-shadow: 0 6px 8px 6px rgba(0, 0, 0, 0.253);
+      }
 
       img {
         height: 200px;
@@ -292,7 +315,7 @@ main {
       padding: 0.5rem;
 
       .title {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         font-weight: 700;
       }
 
@@ -306,6 +329,12 @@ main {
       border: 1px solid rgba(0, 0, 0, 0.075);
       border-radius: 5px;
       overflow: hidden;
+      transition: box-shadow 0.3s;
+      font-size: 0.9rem;
+
+      &:hover {
+        box-shadow: 0 4px 6px 6px rgba(0, 0, 0, 0.253);
+      }
 
       iframe {
         height: 200px;
@@ -375,8 +404,12 @@ main {
 
         .title {
           font-weight: 700;
-          font-size: 1.3rem;
+          font-size: 1.2rem;
           margin-bottom: 1rem;
+        }
+
+        .description {
+          font-size: 0.9rem;
         }
 
         button {
@@ -400,6 +433,7 @@ main {
   align-items: center;
   gap: 2rem;
   width: 100%;
+  font-size: 0.9rem;
 
   img {
     width: 100%;
@@ -448,6 +482,7 @@ main {
 footer {
   width: 100%;
   background-color: black;
+  font-size: 0.9rem;
 
   .location {
     height: 300px;
@@ -485,11 +520,13 @@ footer {
 
   .bread-crump {
     margin: 0.5rem 0;
-    background: rgba(0, 0, 0, 0.075);
-    padding: 1rem;
-    border-radius: 5px;
+    //background: rgba(0, 0, 0, 0.075);
+    padding: 1rem 0;
+    //border-radius: 5px;
     font-size: 0.8rem;
-    font-weight: 500;
+    font-weight: 600;
+    color: rgb(58, 58, 58);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.247);
 
     a {
       color: blue;
@@ -504,9 +541,10 @@ footer {
   }
 
   .body {
+    font-size: 0.9rem;
     .title {
       margin-top: 1rem;
-      font-size: 1.5rem;
+      font-size: 1.3rem;
     }
 
     .author {
@@ -534,6 +572,7 @@ footer {
     margin-top: 3rem;
     padding-bottom: 0.5rem;
     border-bottom: 1px solid rgba(0, 0, 0, 0.274);
+    font-size: 0.9rem;
   }
 
   .related-blogs {
@@ -564,6 +603,7 @@ footer {
         display: flex;
         flex-direction: column;
         flex: 1;
+        font-size: 0.9rem;
 
         .title {
           font-weight: 700;
@@ -594,6 +634,12 @@ footer {
 
   img {
     cursor: pointer;
+    filter: grayscale(1);
+    transition: filter 0.3s;
+
+    &:hover {
+      filter: grayscale(0);
+    }
   }
 }
 

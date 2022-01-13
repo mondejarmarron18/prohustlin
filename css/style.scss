@@ -283,6 +283,7 @@ main {
         .description {
           margin-bottom: 1rem;
           flex: 1;
+          font-size: 0.9rem;
         }
 
         a {
@@ -333,7 +334,7 @@ main {
       font-size: 1rem;
 
       &:hover {
-        box-shadow: 0 4px 6px 6px rgba(0, 0, 0, 0.253);
+        box-shadow: 0 0 6px 6px rgba(0, 0, 0, 0.253);
       }
 
       iframe {
@@ -347,6 +348,10 @@ main {
         .title {
           font-weight: 700;
           margin-bottom: 0.5rem;
+        }
+
+        .description {
+          font-size: 0.9rem;
         }
       }
     }
@@ -585,7 +590,7 @@ footer {
 
     .blog {
       flex: 1;
-      max-width: 280px;
+      max-width: 290px;
       min-width: 250px;
       border: 1px solid rgba(0, 0, 0, 0.075);
       border-radius: 5px;
@@ -619,6 +624,7 @@ footer {
         .description {
           margin-bottom: 1rem;
           flex: 1;
+          font-size: 0.9rem;
         }
 
         a {

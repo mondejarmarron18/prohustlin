@@ -339,6 +339,7 @@ main .blogs .blog .content .description {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
+  font-size: 0.9rem;
 }
 
 main .blogs .blog .content a {
@@ -402,8 +403,8 @@ main .vlogs .vlog {
 }
 
 main .vlogs .vlog:hover {
-  -webkit-box-shadow: 0 4px 6px 6px rgba(0, 0, 0, 0.253);
-          box-shadow: 0 4px 6px 6px rgba(0, 0, 0, 0.253);
+  -webkit-box-shadow: 0 0 6px 6px rgba(0, 0, 0, 0.253);
+          box-shadow: 0 0 6px 6px rgba(0, 0, 0, 0.253);
 }
 
 main .vlogs .vlog iframe {
@@ -418,6 +419,10 @@ main .vlogs .vlog .content {
 main .vlogs .vlog .content .title {
   font-weight: 700;
   margin-bottom: 0.5rem;
+}
+
+main .vlogs .vlog .content .description {
+  font-size: 0.9rem;
 }
 
 main .topics {
@@ -716,7 +721,7 @@ footer .copyright .privacyPolicyBtn {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
-  max-width: 280px;
+  max-width: 290px;
   min-width: 250px;
   border: 1px solid rgba(0, 0, 0, 0.075);
   border-radius: 5px;
@@ -771,6 +776,7 @@ footer .copyright .privacyPolicyBtn {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
+  font-size: 0.9rem;
 }
 
 #blog .related-blogs .blog .content a {
